@@ -7,9 +7,9 @@ export interface VideoType {
 
 export default function Video({date, url}: VideoType) {
   return (
-      <div className="video">
-          <iframe src={url} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-          <DateTimePretty date={date} />
-      </div>
+    <div className="video">
+      <iframe src={url} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      <DateTimePretty date={date} />
+    </div>
   )
 }
